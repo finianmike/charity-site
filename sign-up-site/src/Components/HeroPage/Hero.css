@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1px;
+    padding: 30px;
+    background-color: rgb(97, 89, 89);
+}
+.hero1 h2 {
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+    color: yellow;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 2s steps(13) infinite alternate,
+    blink 800ms steps(13) infinite normal;
+    border-right: 5px solid yellow;
+}
+@keyframes typewriter {
+    from {width: 0%;}
+    to {width: 95%;}
+}
+@keyframes blink {
+    from
+    {border-color: black;}
+    to {
+        border-color: transparent;
+    }
+    
+   
+}
+
+
+img {
+    width: 20%;
+    height: 50vh;
+
+}
+
+@media (max-width:1200px){
+    .hero{
+        display: block;
+        text-align: center;
+    }
+    img {
+margin-left: auto;
+margin-right: auto;
+    }
+}
+
+
+    

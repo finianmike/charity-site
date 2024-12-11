@@ -1,0 +1,125 @@
+.about{
+    background-color: rgb(250, 240, 240);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 9px;
+    height: 60vh;
+    margin: 65px;
+    box-sizing: border-box;
+    border-radius: 5px solid black;
+    width: 90%;
+    box-shadow: 0 4px 8px 0;
+    transition: 0 3s;
+}
+.about h1 {
+    text-align: center;
+    color: green;
+    /* margin-top: 20px; */
+    padding: 50px;
+}
+h1 {
+    text-align: center;
+    color: rgb(8, 199, 8);
+    /* margin-top: 20px; */
+    padding: 20px;
+}
+h4{
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 2s steps(13) infinite alternate,
+    blink 800ms steps(13) infinite normal;
+    border-right: 5px solid yellow;
+}
+@keyframes typewriter {
+    from {width: 0%;}
+    to {width: 100%;}
+}
+@keyframes blink {
+    from
+    {border-color: transparent;}
+    to {
+        border-color: transparent;
+    }
+}
+
+p {
+    padding: 30px;
+    text-align: left;
+}
+.advisors {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+  }
+  
+  .advisors img {
+    width: 80%;
+    border-radius: 0px 0px 40px;
+    margin-top: 40px;
+    height: 20vh;
+  }
+  .advise-side {
+    background-color: rgb(11, 96, 96);
+    padding: 40px;
+  }
+
+  .advise-side p {
+    text-align: left;
+  }
+  .advise-side h1 {
+    text-align: left;
+  }
+  en {
+    color: white;
+  }
+  .enquire-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-left: 210px;
+    box-sizing: border-box;
+    border-radius: 5px solid black;
+    width: 70%;
+    box-shadow: 0 4px 8px 0;
+    transition: 0 3s;
+  }
+  button {
+    cursor: pointer;
+    height: 6vh;
+    width: 10%;
+    border-radius: 5px;
+    
+  }
+  button:hover{
+background-color: red;
+  }
+
+  .mission1 {
+    padding-top: 40px;
+    box-sizing: border-box;
+    border-radius: 5px solid black;
+    width: 30%;
+    box-shadow: 0 4px 8px 0;
+    transition: 0 3s;
+    height: 60vh;
+  }
+
+  .mission1:hover {
+    box-shadow: 0 8px 16px 0;
+  }
+  
+  .mission1 h3 {
+    text-align: center;
+    color: green;
+
+  }
+  .statement {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0, 128, 0, 0.267);
+    /* margin-top: 20px; */
+    padding-top: 50px;
+    height: 70vh;
+  }

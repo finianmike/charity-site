@@ -1,0 +1,36 @@
+.Nav-Menu {
+    /* align-items: center; */
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    background-color: black;
+}
+
+.Nav-Menu li {
+    padding: 20px;
+    text-align: left;
+    margin-left: 60px;
+    padding-left: 5px;
+}
+
+.Nav-Menu li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+.Nav-Menu li a:hover {
+    color: red;
+}
+
+.logo {
+    padding-right: 720px;
+    color: yellow;
+    margin-top: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.logo:hover{
+    color: red;
+}
